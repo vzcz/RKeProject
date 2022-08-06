@@ -63,9 +63,10 @@ label {
     height: 500px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
 
     form {
+        min-width: 200px;
         max-width: 480px;
     }
 
